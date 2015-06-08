@@ -31,33 +31,35 @@ namespace AskFm.Base
                 userNameSender = ConfigurationManager.AppSettings.Get("userNameSender");
                 userNameReceiver = ConfigurationManager.AppSettings.Get("userNameReceiver");
                 browserType = ConfigurationManager.AppSettings.Get("browserType");
+
+                switch (browserType)
+                {
+                    case "Chrome":
+                        Driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), new ChromeOptions(), TimeSpan.FromMinutes(7));
+                        break;
+                    case "Firefox":
+                        Driver = new FirefoxDriver();
+                        break;
+                    case "IE":
+                        Driver = new InternetExplorerDriver();
+                        break;
+                    default:
+                        break;
+                }
+
+
+                Driver.Manage().Window.Maximize();
+                Reporter.AddReporter(new ConsoleReporterHelper());
+                Reporter.AddHelperExtension(new SeleniumScreenshotMaker(Driver));
+                Reporter.SetProperty(ReporterHelperProperties.WorkingDirectory, Path.Combine(Utilities.GetProjectDirectory(), ".reports"));
+                Reporter.InitTestReporting();
             }
             catch (Exception)
             {
 
             }
 
-            switch (browserType)
-            {
-                case "Chrome":
-                    Driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), new ChromeOptions(), TimeSpan.FromMinutes(7));
-                    break;
-                case "Firefox":
-                     Driver = new FirefoxDriver();
-                    break;
-                case "IE":
-                    Driver=new InternetExplorerDriver();
-                    break;
-                default:
-                    break;
-            }
-
-           
-            Driver.Manage().Window.Maximize();
-            Reporter.AddReporter(new ConsoleReporterHelper());
-            Reporter.AddHelperExtension(new SeleniumScreenshotMaker(Driver));
-            Reporter.SetProperty(ReporterHelperProperties.WorkingDirectory, Path.Combine(Utilities.GetProjectDirectory(), ".reports"));
-            Reporter.InitTestReporting();
+            
         }
 
         [TestFixtureTearDown]

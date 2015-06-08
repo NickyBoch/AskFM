@@ -13,3 +13,4 @@ C:\Users\Admin\Documents\visual studio 2013\Projects\AskFmV2\AskFm\obj\Debug\Ask
 C:\Users\Admin\Documents\visual studio 2013\Projects\AskFmV2\AskFm\bin\Debug\ClosedXML.dll
 C:\Users\Admin\Documents\visual studio 2013\Projects\AskFmV2\AskFm\bin\Debug\ClosedXML.xml
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\bin\Debug\AskFm.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\obj\Debug\AskFm_Suite.csprojResolveAssemblyReference.cache
