@@ -59,7 +59,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClosedXML">
-      <HintPath>D:\USERDATA\_Temp_\ClosedXML_v0.76.0.0\ClosedXML.dll</HintPath>
+      <HintPath>.\ClosedXML.dll</HintPath>
     </Reference>
     <Reference Include="nunit.core">
       <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.dll</HintPath>

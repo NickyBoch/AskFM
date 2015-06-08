@@ -1,0 +1,36 @@
+[17:17:46.550]	Navigate to site main page
+[17:17:47.473]		Login AskFm
+[17:17:47.473]	Wait for login button
+[17:17:47.623]	Login menu click
+[17:17:48.016]	Type login: Inokenti4
+[17:18:33.656]	Type password: VerySecretPassword
+[17:19:33.948]	[*****] Finished test: '1st test - Change Language test'.
+[17:19:33.948]	[*****] Test executed in 109 seconds.
+[17:19:33.948]	[FAILED] OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://127.0.0.1:4444/wd/hub/session/eb10307b-41c0-43e1-ac8d-a832f5821fbe/element/2/value timed out after 60 seconds.
+  ----> System.Net.WebException : Время ожидания операции истекло
+[17:20:08.322]	Navigate to site main page
+[17:20:09.195]		Login AskFm
+[17:20:09.195]	Wait for login button
+[17:20:09.295]	Login menu click
+[17:20:09.633]	Type login: Pyato4kin
+[17:20:55.652]	Type password: VerySecretPassword
+[17:21:55.965]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[17:21:55.965]	[*****] Test executed in 108 seconds.
+[17:21:55.965]	[FAILED] OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://127.0.0.1:4444/wd/hub/session/f6419f69-1d79-4ac8-b9e6-d5b49814c9c5/element/2/value timed out after 60 seconds.
+  ----> System.Net.WebException : Время ожидания операции истекло
+[17:22:30.866]	Navigate to site main page
+[17:22:31.729]		Login AskFm
+[17:22:31.729]	Wait for login button
+[17:22:31.862]	Login menu click
+[17:22:32.364]	Type login: Inokenti4
+[17:23:18.062]	Type password: VerySecretPassword
+[17:23:18.442]	[*****] Finished test: '3st test - Delete message test'.
+[17:23:18.442]	[*****] Test executed in 48 seconds.
+[17:23:18.442]	[FAILED] OpenQA.Selenium.NoSuchWindowException : Unable to find element on closed window (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'WEB100-PC', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:47162/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8820efbd-eb35-4aef-8acd-7e1cd5c8d7e7
+*** Element info: {Using=id, value=password}

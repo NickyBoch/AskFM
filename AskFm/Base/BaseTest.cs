@@ -20,6 +20,7 @@ namespace AskFm.Base
         public string userNameSender;
         public string userNameReceiver;
         private string browserType;
+        private DesiredCapabilities capabilities;
 
         [TestFixtureSetUp]
         public void SetUp()
@@ -32,22 +33,25 @@ namespace AskFm.Base
                 userNameReceiver = ConfigurationManager.AppSettings.Get("userNameReceiver");
                 browserType = ConfigurationManager.AppSettings.Get("browserType");
 
+                
                 switch (browserType)
                 {
                     case "Chrome":
-                        Driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), new ChromeOptions(), TimeSpan.FromMinutes(7));
+                        capabilities = DesiredCapabilities.Chrome();
+                        //Driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), new ChromeOptions(), TimeSpan.FromMinutes(7));
                         break;
                     case "Firefox":
-                        Driver = new FirefoxDriver();
+                        capabilities = DesiredCapabilities.Firefox();
+                        //Driver = new FirefoxDriver();
                         break;
                     case "IE":
-                        Driver = new InternetExplorerDriver();
+                        capabilities = DesiredCapabilities.InternetExplorer();
+                        //Driver = new InternetExplorerDriver();
                         break;
                     default:
                         break;
                 }
-
-
+                Driver = new RemoteWebDriver(capabilities);
                 Driver.Manage().Window.Maximize();
                 Reporter.AddReporter(new ConsoleReporterHelper());
                 Reporter.AddHelperExtension(new SeleniumScreenshotMaker(Driver));

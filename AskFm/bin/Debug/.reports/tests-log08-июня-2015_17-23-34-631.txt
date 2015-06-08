@@ -1,0 +1,97 @@
+[17:23:41.270]	Navigate to site main page
+[17:23:42.610]		Login AskFm
+[17:23:42.610]	Wait for login button
+[17:23:43.070]	Login menu click
+[17:23:43.160]	Type login: Inokenti4
+[17:23:43.482]	Type password: VerySecretPassword
+[17:23:43.582]	Login submit click
+[17:23:44.102]	Wait for menu load
+[17:23:45.102]	OpenPage to settings page
+[17:23:45.172]	Wait for menu load
+[17:23:45.882]		Change language toРусский or English
+[17:23:45.882]	Wait for language combobox load
+[17:23:45.922]	Select language: Русский or English
+[17:23:46.842]	Click save changes
+[17:23:48.092]	Wait for profile updated
+[17:23:48.192]	Get number of new messages
+[17:23:48.212]		Logout AskFm
+[17:23:48.212]	Wait for logout button
+[17:23:48.242]	Logout click
+[17:23:48.312]	[*****] Finished test: '1st test - Change Language test'.
+[17:23:48.312]	[*****] Test executed in 8 seconds.
+[17:23:53.667]	Navigate to site main page
+[17:23:54.937]		Login AskFm
+[17:23:54.937]	Wait for login button
+[17:23:55.352]	Login menu click
+[17:23:55.452]	Type login: Pyato4kin
+[17:23:55.682]	Type password: VerySecretPassword
+[17:23:55.772]	Login submit click
+[17:23:56.512]	Wait for menu load
+[17:23:57.592]	Wait for menu load
+[17:23:57.672]		Choose Friend
+[17:23:57.672]	Open Friends page
+[17:23:57.768]	Choose Friend
+[17:23:58.398]		Send 5 messages 
+[17:23:58.398]	Wait for messagebox
+[17:23:59.054]	Type message: Hello World! 0
+[17:23:59.364]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[17:23:59.364]	[*****] Test executed in 6 seconds.
+[17:23:59.364]	[FAILED] System.InvalidOperationException : textEvent.initTextEvent is not a function
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'WEB100-PC', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+[17:24:03.520]	Navigate to site main page
+[17:24:04.820]		Login AskFm
+[17:24:04.820]	Wait for login button
+[17:24:05.270]	Login menu click
+[17:24:05.354]	Type login: Inokenti4
+[17:24:05.764]	Type password: VerySecretPassword
+[17:24:05.854]	Login submit click
+[17:24:06.384]	Wait for menu load
+[17:24:07.691]	Get number of new messages
+[17:24:07.721]		Open all question divs
+[17:24:07.721]	Open Inbox page
+[17:24:08.671]	Show more questions
+[17:24:09.764]	Show more questions
+[17:24:10.175]	Show more questions
+[17:24:10.605]	Show more questions
+[17:24:11.255]	Show more questions
+[17:24:11.635]	Show more questions
+[17:24:12.105]	Show more questions
+[17:24:12.565]	Show more questions
+[17:24:12.992]	Show more questions
+[17:24:13.392]		GetAllMessageCount
+[17:24:13.392]	Find daily question
+[17:24:13.412]	Number of daily question: 1
+[17:24:13.412]	Find sponsored question
+[17:24:13.442]	Number of sponsored question: 1
+[17:24:13.442]	Find questions
+[17:24:13.502]	Number of question: 242
+[17:24:13.502]		Delete question at: 5
+[17:24:13.542]	Move mouse over element
+[17:24:13.562]	Remove question at: 5
+[17:24:13.822]	Click delete message button
+[17:24:13.852]		Open all question divs
+[17:24:13.852]	Open Inbox page
+[17:24:14.764]	Show more questions
+[17:24:15.184]	Show more questions
+[17:24:15.574]	Show more questions
+[17:24:15.984]	Show more questions
+[17:24:16.564]	Show more questions
+[17:24:16.954]	Show more questions
+[17:24:17.384]	Show more questions
+[17:24:17.863]	Show more questions
+[17:24:18.463]	Show more questions
+[17:24:18.813]	Get number of all messages from menu
+[17:24:18.833]		GetAllMessageCount
+[17:24:18.833]	Find daily question
+[17:24:18.863]	Number of daily question: 1
+[17:24:18.863]	Find sponsored question
+[17:24:18.893]	Number of sponsored question: 1
+[17:24:18.893]	Find questions
+[17:24:18.963]	Number of question: 241
+[17:24:18.973]		Logout AskFm
+[17:24:18.973]	Wait for logout button
+[17:24:19.003]	Logout click
+[17:24:19.913]	[*****] Finished test: '3st test - Delete message test'.
+[17:24:19.913]	[*****] Test executed in 16 seconds.

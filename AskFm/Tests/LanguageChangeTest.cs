@@ -12,13 +12,6 @@ namespace AskFm.Tests
     public class LanguageChangeTest : BaseTest
     {
         private readonly GeneralActions _generalActions = new GeneralActions();
-        //
-        //private string _path;// = @"..\..\Data\Credentials.xlsx";
-        //private string Sheet;// = "CredentialChrome";
-        //private string userNameSender;// = "User1-1";
-        //private const string UserDataToSearch1 = "User1-6";
-        //
-        private const string Message = "Hello World!";
         private static int _lastMessageNotifyCount = 0;
         private const string EnglishLang = "English";
         private const string RussianLang = "Русский";
@@ -32,9 +25,7 @@ namespace AskFm.Tests
             string startupPath = AppDomain.CurrentDomain.BaseDirectory;
             string path = Path.Combine(startupPath, _path);
             UserData user = ReadDataFromExcel.GetUserData(path, Sheet, userNameReceiver);
-            //if (user == null) return;
             Login(user.Login, user.Password);
-            //Login("Inokenti4", "VerySecretPassword");
             PageControl.SettingsPage.OpenPage();
             PageControl.SettingsPage.WaitForMenuLoad();
             _generalActions.ChangeLanguage(RussianLang, EnglishLang);

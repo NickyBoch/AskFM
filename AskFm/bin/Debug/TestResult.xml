@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="AskFMSuite" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-06-08" time="10:56:35">
+<test-results name="AskFMSuite" total="3" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-06-08" time="17:24:20">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\bin\Debug" machine-name="WEB100-PC" user="Admin" user-domain="WEB100-PC" />
   <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
-  <test-suite type="TestSuite" name="AskFMSuite" executed="True" result="Success" success="True" time="55.839" asserts="0">
+  <test-suite type="TestSuite" name="AskFMSuite" executed="True" result="Failure" success="False" time="45.795" asserts="0">
     <results>
-      <test-suite type="TestFixture" name="LanguageChangeTest" executed="True" result="Success" success="True" time="14.954" asserts="0">
+      <test-suite type="TestFixture" name="LanguageChangeTest" executed="True" result="Success" success="True" time="14.935" asserts="0">
         <results>
-          <test-case name="AskFm.Tests.LanguageChangeTest.TestMethod1" description="1st test - Change Language test" executed="True" result="Success" success="True" time="10.033" asserts="1" />
+          <test-case name="AskFm.Tests.LanguageChangeTest.TestMethod1" description="1st test - Change Language test" executed="True" result="Success" success="True" time="8.352" asserts="1" />
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="SendMessagesTest" executed="True" result="Success" success="True" time="19.398" asserts="0">
+      <test-suite type="TestFixture" name="SendMessagesTest" executed="True" result="Failure" success="False" time="10.274" asserts="0">
         <results>
-          <test-case name="AskFm.Tests.SendMessagesTest.TestMethod2" description="2nd test - 1st user send new message to 2nd user" executed="True" result="Success" success="True" time="15.525" asserts="0" />
+          <test-case name="AskFm.Tests.SendMessagesTest.TestMethod2" description="2nd test - 1st user send new message to 2nd user" executed="True" result="Error" success="False" time="5.707" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidOperationException : textEvent.initTextEvent is not a function
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'WEB100-PC', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown]]></message>
+              <stack-trace><![CDATA[в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+в AskFm.Base.BasePage.TypeWithJS(String logMessage, String typeMessage, IWebElement webElement) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\Base\BasePage.cs:строка 136
+в AskFm.Pages.SendMessagePage.TypeMessage(String message) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\Pages\SendMessagePage.cs:строка 19
+в AskFm.GeneralActionsNS.GeneralActions.SendMessage(String message, Int32 count) в c:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\Actions\GeneralActions.cs:строка 53
+в AskFm.Tests.SendMessagesTest.TestMethod2() в c:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\Tests\SendMessagesTest.cs:строка 35
+]]></stack-trace>
+            </failure>
+          </test-case>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="DeleteMessageTest" executed="True" result="Success" success="True" time="21.465" asserts="0">
+      <test-suite type="TestFixture" name="DeleteMessageTest" executed="True" result="Success" success="True" time="20.564" asserts="0">
         <results>
-          <test-case name="AskFm.Tests.DeleteMessageTest.TestMethod3" description="3st test - Delete message test" executed="True" result="Success" success="True" time="17.657" asserts="2" />
+          <test-case name="AskFm.Tests.DeleteMessageTest.TestMethod3" description="3st test - Delete message test" executed="True" result="Success" success="True" time="16.393" asserts="2" />
         </results>
       </test-suite>
     </results>

@@ -16,11 +16,6 @@ namespace AskFm.Tests
     class SendMessagesTest : BaseTest
     {
         private readonly GeneralActions _generalActions = new GeneralActions();
-        //
-        //private string _path;// = @"..\..\Data\Credentials.xlsx";
-        //private string Sheet;//= "CredentialChrome";
-        //private string UserDataToSearch1;// = "User1-6";
-        //
         private const string Message = "Hello World!";
         #region
 
@@ -33,7 +28,6 @@ namespace AskFm.Tests
             UserData user = ReadDataFromExcel.GetUserData(path, Sheet, userNameSender);
             //if (user == null) return;
             Login(user.Login, user.Password);
-            //Login("Pyato4kin", "VerySecretPassword");
             PageControl.FriendsPage.WaitForMenuLoad();
             _generalActions.ChooseFriend();
             Random rand = new Random();

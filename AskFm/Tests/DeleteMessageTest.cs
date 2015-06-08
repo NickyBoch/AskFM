@@ -18,12 +18,7 @@ namespace AskFm.Tests
 {
     internal class DeleteMessageTest : BaseTest
     {
-        private readonly GeneralActions _generalActions = new GeneralActions();
-        //
-        //private string _path;// = @"..\..\Data\Credentials.xlsx";
-        //private string Sheet;// = "CredentialChrome";
-        //private string userNameSender;// = "User1-1";
-        //        
+        private readonly GeneralActions _generalActions = new GeneralActions();     
         private static int _currentMessageNotifyCount = 0;
         private static int _allMessageDivsCount = 0;
         private static int _allMessageMenuCount = 0;
@@ -39,9 +34,7 @@ namespace AskFm.Tests
             string startupPath = AppDomain.CurrentDomain.BaseDirectory;
             string path = Path.Combine(startupPath, _path);
             UserData user = ReadDataFromExcel.GetUserData(_path, Sheet, userNameReceiver);
-            //if (user == null) return;
             Login(user.Login, user.Password);
-            //Login("Inokenti4", "VerySecretPassword");
             _currentMessageNotifyCount = PageControl.MainPage.GetIncomingMessagesNotifyCount();
             _generalActions.OpenAllQuestion();
             _messageDivsCountBeforeDelete = _generalActions.GetAllMessageCount();

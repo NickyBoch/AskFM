@@ -1,0 +1,88 @@
+[17:20:44.901]	Navigate to site main page
+[17:20:48.017]		Login AskFm
+[17:20:48.018]	Wait for login button
+[17:20:48.092]	Login menu click
+[17:20:48.159]	Type login: Inokenti4
+[17:20:48.315]	Type password: VerySecretPassword
+[17:20:48.476]	Login submit click
+[17:20:48.539]	Wait for menu load
+[17:20:50.091]	OpenPage to settings page
+[17:20:51.212]	Wait for menu load
+[17:20:51.271]		Change language toРусский or English
+[17:20:51.271]	Wait for language combobox load
+[17:20:51.305]	Select language: Русский or English
+[17:20:51.644]	Click save changes
+[17:20:52.094]	Wait for profile updated
+[17:20:53.349]	Get number of new messages
+[17:20:53.451]		Logout AskFm
+[17:20:53.452]	Wait for logout button
+[17:20:53.485]	Logout click
+[17:20:53.643]	[*****] Finished test: '1st test - Change Language test'.
+[17:20:53.643]	[*****] Test executed in 10 seconds.
+[17:21:02.599]	Navigate to site main page
+[17:21:05.376]		Login AskFm
+[17:21:05.376]	Wait for login button
+[17:21:05.401]	Login menu click
+[17:21:05.448]	Type login: Pyato4kin
+[17:21:05.598]	Type password: VerySecretPassword
+[17:21:05.751]	Login submit click
+[17:21:05.809]	Wait for menu load
+[17:22:05.887]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[17:22:05.887]	[*****] Test executed in 63 seconds.
+[17:22:05.887]	[FAILED] OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://127.0.0.1:4444/wd/hub/session/e7f9d972-a3b4-4042-b045-15461a55f987/element timed out after 60 seconds.
+  ----> System.Net.WebException : Время ожидания операции истекло
+[17:22:11.990]	Navigate to site main page
+[17:22:15.009]		Login AskFm
+[17:22:15.010]	Wait for login button
+[17:22:15.041]	Login menu click
+[17:22:15.090]	Type login: Inokenti4
+[17:22:15.291]	Type password: VerySecretPassword
+[17:22:15.444]	Login submit click
+[17:22:15.496]	Wait for menu load
+[17:22:17.506]	Get number of new messages
+[17:22:17.545]		Open all question divs
+[17:22:17.549]	Open Inbox page
+[17:22:18.190]	Show more questions
+[17:22:18.552]	Show more questions
+[17:22:19.011]	Show more questions
+[17:22:19.342]	Show more questions
+[17:22:21.129]	Show more questions
+[17:22:21.591]	Show more questions
+[17:22:22.125]	Show more questions
+[17:22:22.506]	Show more questions
+[17:22:22.830]	Show more questions
+[17:22:23.115]		GetAllMessageCount
+[17:22:23.115]	Find daily question
+[17:22:23.127]	Number of daily question: 1
+[17:22:23.127]	Find sponsored question
+[17:22:23.150]	Number of sponsored question: 1
+[17:22:23.150]	Find questions
+[17:22:23.190]	Number of question: 243
+[17:22:23.190]		Delete question at: 5
+[17:22:23.214]	Move mouse over element
+[17:22:23.232]	Remove question at: 5
+[17:22:23.248]	Click delete message button
+[17:22:23.260]		Open all question divs
+[17:22:23.260]	Open Inbox page
+[17:22:23.910]	Show more questions
+[17:22:24.292]	Show more questions
+[17:22:24.837]	Show more questions
+[17:22:25.343]	Show more questions
+[17:22:26.693]	Show more questions
+[17:22:27.304]	Show more questions
+[17:22:27.808]	Show more questions
+[17:22:28.157]	Show more questions
+[17:22:28.506]	Show more questions
+[17:22:28.810]	Get number of all messages from menu
+[17:22:28.847]		GetAllMessageCount
+[17:22:28.847]	Find daily question
+[17:22:28.862]	Number of daily question: 1
+[17:22:28.862]	Find sponsored question
+[17:22:28.882]	Number of sponsored question: 1
+[17:22:28.882]	Find questions
+[17:22:28.924]	Number of question: 242
+[17:22:28.934]		Logout AskFm
+[17:22:28.934]	Wait for logout button
+[17:22:28.969]	Logout click
+[17:22:30.080]	[*****] Finished test: '3st test - Delete message test'.
+[17:22:30.080]	[*****] Test executed in 18 seconds.
