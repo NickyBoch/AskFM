@@ -1,0 +1,97 @@
+[10:46:20.395]	Navigate to site main page
+[10:46:22.993]		Login AskFm
+[10:46:23.002]	Wait for login button
+[10:46:23.062]	Login menu click
+[10:46:23.108]	Type login: Inokenti4
+[10:46:23.227]	Type password: VerySecretPassword
+[10:46:23.366]	Login submit click
+[10:46:23.432]	Wait for menu load
+[10:46:25.563]	Redirect to settings page
+[10:46:29.930]	Wait for language combobox load
+[10:46:29.952]	Select language: Русский or English
+[10:46:30.608]	Click save changes
+[10:46:31.524]	Wait for profile updated
+[10:46:31.592]	Get number of new messages
+[10:46:31.616]		Logout AskFm
+[10:46:31.617]	Wait for logout button
+[10:46:31.659]	Logout click
+[10:46:34.039]	Navigate to site main page
+[10:46:34.499]		Login AskFm
+[10:46:34.501]	Wait for login button
+[10:46:34.529]	Login menu click
+[10:46:34.568]	Type login: Pyato4kin
+[10:46:34.730]	Type password: VerySecretPassword
+[10:46:34.847]	Login submit click
+[10:46:34.896]	Wait for menu load
+[10:46:35.845]	Wait for menu load
+[10:46:35.861]	Redirect to friends page
+[10:46:36.517]	Choose Friend
+[10:46:37.077]	Wait for messagebox
+[10:46:37.108]	Type message: Hello World! 0
+[10:46:37.116]	Submit message button click
+[10:46:37.168]	Wait for message send and resend button visible
+[10:46:37.425]	Wait for more message send button
+[10:46:37.436]	Click more message send button
+[10:46:37.475]	Wait for messagebox
+[10:46:37.494]	Type message: Hello World! 1
+[10:46:37.500]	Submit message button click
+[10:46:37.724]	Wait for message send and resend button visible
+[10:46:38.314]	Wait for more message send button
+[10:46:38.321]	Click more message send button
+[10:46:38.361]	Wait for messagebox
+[10:46:38.378]	Type message: Hello World! 2
+[10:46:38.383]	Submit message button click
+[10:46:38.431]	Wait for message send and resend button visible
+[10:46:39.003]	Wait for more message send button
+[10:46:39.017]	Click more message send button
+[10:46:39.052]	Wait for messagebox
+[10:46:39.069]	Type message: Hello World! 3
+[10:46:39.078]	Submit message button click
+[10:46:39.125]	Wait for message send and resend button visible
+[10:46:39.681]	Wait for more message send button
+[10:46:39.692]	Click more message send button
+[10:46:39.727]	Wait for messagebox
+[10:46:39.745]	Type message: Hello World! 4
+[10:46:39.751]	Submit message button click
+[10:46:39.802]	Wait for message send and resend button visible
+[10:46:40.359]	Wait for more message send button
+[10:46:40.371]	Click more message send button
+[10:46:40.419]	Wait for messagebox
+[10:46:40.445]	Type message: Hello World! 5
+[10:46:40.451]	Submit message button click
+[10:46:40.488]	Wait for message send and resend button visible
+[10:46:41.043]	Wait for more message send button
+[10:46:41.053]	Click more message send button
+[10:46:41.090]	Wait for messagebox
+[10:46:41.110]	Type message: Hello World! 6
+[10:46:41.114]	Submit message button click
+[10:46:41.157]	Wait for message send and resend button visible
+[10:46:41.691]	Wait for more message send button
+[10:46:41.710]	Click more message send button
+[10:46:41.754]		Logout AskFm
+[10:46:41.755]	Wait for logout button
+[10:46:41.782]	Logout click
+[10:46:42.541]	Navigate to site main page
+[10:46:43.037]		Login AskFm
+[10:46:43.040]	Wait for login button
+[10:46:43.061]	Login menu click
+[10:46:43.100]	Type login: Inokenti4
+[10:46:43.196]	Type password: VerySecretPassword
+[10:46:43.328]	Login submit click
+[10:46:43.381]	Wait for menu load
+[10:46:44.221]	Get number of new messages
+[10:46:44.247]	Redirect to inbox page
+[10:46:44.836]	Show more questions
+[10:46:45.155]	Show more questions
+[10:46:45.481]	Show more questions
+[10:46:45.781]	Show more questions
+[10:46:46.070]	Show more questions
+[10:49:14.937]	Find daily question divs
+[10:49:16.016]	Number of daily question divs: 1
+[10:49:16.016]	Find sponsored question divs
+[10:49:16.030]	Number of sponsored question divs: 1
+[10:49:16.031]	Find question divs
+[10:49:16.049]	Number of question divs: 156
+[10:50:56.053]	Try to remove at: 5
+[10:50:56.083]	Move mouse over element
+[10:50:57.128]	

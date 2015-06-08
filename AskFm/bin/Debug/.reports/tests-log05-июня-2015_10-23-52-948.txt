@@ -1,0 +1,46 @@
+[10:24:16.261]	Navigate to site main page
+[10:24:19.932]		Login AskFm
+[10:24:19.944]	Wait for login button
+[10:24:20.002]	Login menu click
+[10:24:20.059]	Type login: Pyato4kin
+[10:24:20.195]	Type password: VerySecretPassword
+[10:24:20.365]	Login submit click
+[10:24:20.415]	Wait for menu load
+[10:24:22.971]	Wait for menu load
+[10:24:23.032]	Redirect to friends page
+[10:24:29.477]	Choose Friend
+[10:25:01.431]	Wait for messagebox
+[10:25:01.472]	Type message: Hello World! 0
+[10:25:01.479]	Submit message button click
+[10:25:01.543]	Wait for message send and resend button visible
+[10:25:01.857]	Wait for more message send button
+[10:25:01.871]	Click more message send button
+[10:25:01.924]	Wait for messagebox
+[10:25:01.955]	Type message: Hello World! 1
+[10:25:01.963]	Submit message button click
+[10:25:02.042]	Wait for message send and resend button visible
+[10:25:02.580]	Wait for more message send button
+[10:25:02.587]	Click more message send button
+[10:25:02.623]	Wait for messagebox
+[10:25:02.646]	Type message: Hello World! 2
+[10:25:02.657]	Submit message button click
+[10:25:02.724]	Wait for message send and resend button visible
+[10:25:03.285]	Wait for more message send button
+[10:25:03.294]	Click more message send button
+[10:25:03.329]	Wait for messagebox
+[10:25:03.358]	Type message: Hello World! 3
+[10:25:03.363]	Submit message button click
+[10:25:03.413]	Wait for message send and resend button visible
+[10:25:03.959]	Wait for more message send button
+[10:25:03.967]	Click more message send button
+[10:25:04.010]	Wait for messagebox
+[10:25:04.026]	Type message: Hello World! 4
+[10:25:04.032]	Submit message button click
+[10:25:04.096]	Wait for message send and resend button visible
+[10:25:04.673]	Wait for more message send button
+[10:25:04.684]	Click more message send button
+[10:25:04.727]	Wait for messagebox
+[10:25:04.756]	Type message: Hello World! 5
+[10:25:04.763]	Submit message button click
+[10:25:04.813]	Wait for message send and resend button visible
+[10:25:05.393]	Wait fo

@@ -1,0 +1,9 @@
+[15:50:02.343]	[*****] Finished test: '1st test - Change Language test'.
+[15:50:02.350]	[*****] Test executed in 0 seconds.
+[15:50:02.351]	[SKIPPED] AskFm.Suite.AskFMSuite is an abstract class
+[15:50:02.422]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[15:50:02.422]	[*****] Test executed in 0 seconds.
+[15:50:02.423]	[SKIPPED] AskFm.Suite.AskFMSuite is an abstract class
+[15:50:02.433]	[*****] Finished test: '3st test - Delete message test'.
+[15:50:02.433]	[*****] Test executed in 0 seconds.
+[15:50:02.433]	[SKIPPED] AskFm.Suite.AskFMSuite is an abstract class

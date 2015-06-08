@@ -1,0 +1,52 @@
+[14:25:19.339]	Navigate to site main page
+[14:25:22.313]		Login AskFm
+[14:25:22.313]	Wait for login button
+[14:25:22.344]	Login menu click
+[14:25:22.396]	Type login: Inokenti4
+[14:25:22.498]	Type password: VerySecretPassword
+[14:25:22.629]	Login submit click
+[14:25:22.676]	Wait for menu load
+[14:25:24.599]	Get number of new messages
+[14:25:24.653]		Open all question divs
+[14:25:24.653]	Redirect to inbox page
+[14:25:29.976]	Show more questions
+[14:25:30.295]	Show more questions
+[14:25:30.604]	Show more questions
+[14:25:31.202]	Show more questions
+[14:25:31.487]	Show more questions
+[14:25:31.782]	Show more questions
+[14:25:32.065]	Show more questions
+[14:25:32.341]		GetAllMessageDivsCount
+[14:25:32.341]	Find daily question divs
+[14:25:32.354]	Number of daily question divs: 1
+[14:25:32.354]	Find sponsored question divs
+[14:25:32.379]	Number of sponsored question divs: 1
+[14:25:32.379]	Find question divs
+[14:25:32.396]	Number of question divs: 195
+[14:25:32.396]		Delete question at: 5
+[14:25:32.409]	Move mouse over element
+[14:25:32.416]	Move mouse out element
+[14:25:32.422]	Remove question at: 5
+[14:25:32.434]	Click delete message button
+[14:25:32.446]		Open all question divs
+[14:25:32.446]	Redirect to inbox page
+[14:25:35.363]	Show more questions
+[14:25:35.698]	Show more questions
+[14:25:35.973]	Show more questions
+[14:25:36.249]	Show more questions
+[14:25:36.535]	Show more questions
+[14:25:36.808]	Show more questions
+[14:25:37.090]	Show more questions
+[14:25:37.381]	Get number of all messages from menu
+[14:25:37.405]		GetAllMessageDivsCount
+[14:25:37.405]	Find daily question divs
+[14:25:37.416]	Number of daily question divs: 1
+[14:25:37.416]	Find sponsored question divs
+[14:25:37.429]	Number of sponsored question divs: 1
+[14:25:37.429]	Find question divs
+[14:25:37.444]	Number of question divs: 194
+[14:25:37.456]		Logout AskFm
+[14:25:37.456]	Wait for logout button
+[14:25:37.470]	Logout click
+[14:25:38.293]	[*****] Finished test: '3st test - Delete message test'.
+[14:25:38.293]	[*****] Test executed in 19 seconds.

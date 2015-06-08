@@ -1,0 +1,74 @@
+[10:47:25.384]	Navigate to site main page
+[10:47:28.789]		Login AskFm
+[10:47:28.790]	Wait for login button
+[10:47:28.878]	Login menu click
+[10:47:28.918]	Type login: Pyato4kin
+[10:47:29.020]	Type password: VerySecretPassword
+[10:47:29.133]	Login submit click
+[10:47:29.187]	Wait for menu load
+[10:47:31.256]	OpenPage to settings page
+[10:47:36.784]	Wait for menu load
+[10:47:36.818]		Change language toРусский or English
+[10:47:36.818]	Wait for language combobox load
+[10:47:36.835]	Select language: Русский or English
+[10:47:37.428]	Click save changes
+[10:47:40.341]	Wait for profile updated
+[10:47:40.398]	Get number of new messages
+[10:47:40.417]		Logout AskFm
+[10:47:40.417]	Wait for logout button
+[10:47:40.428]	Logout click
+[10:47:41.230]	[*****] Finished test: '1st test - Change Language test'.
+[10:47:41.230]	[*****] Test executed in 17 seconds.
+[10:47:45.075]	Navigate to site main page
+[10:47:47.773]		Login AskFm
+[10:47:47.778]	Wait for login button
+[10:47:47.813]	Login menu click
+[10:47:47.857]	Type login: Pyato4kin
+[10:47:47.954]	Type password: VerySecretPassword
+[10:47:48.080]	Login submit click
+[10:47:48.128]	Wait for menu load
+[10:47:54.269]	Wait for menu load
+[10:47:54.293]		Choose Friend
+[10:47:54.294]	Open Friends page
+[10:47:54.975]	Choose Friend
+[10:48:03.053]		Send 3 messages 
+[10:48:03.055]	Wait for messagebox
+[10:48:03.100]	Type message: Hello World! 0
+[10:48:03.113]	Submit message button click
+[10:48:03.162]	Wait for message send and resend button visible
+[10:48:03.456]	Wait for more message send button
+[10:48:03.469]	Click more message send button
+[10:48:03.510]	Wait for messagebox
+[10:48:03.526]	Type message: Hello World! 1
+[10:48:03.530]	Submit message button click
+[10:48:03.586]	Wait for message send and resend button visible
+[10:48:04.148]	Wait for more message send button
+[10:48:04.160]	Click more message send button
+[10:48:04.196]	Wait for messagebox
+[10:48:04.210]	Type message: Hello World! 2
+[10:48:04.215]	Submit message button click
+[10:48:04.261]	Wait for message send and resend button visible
+[10:48:04.828]	Wait for more message send button
+[10:48:04.838]	Click more message send button
+[10:48:04.880]		Logout AskFm
+[10:48:04.880]	Wait for logout button
+[10:48:04.896]	Logout click
+[10:48:05.685]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[10:48:05.686]	[*****] Test executed in 21 seconds.
+[10:48:09.485]	Navigate to site main page
+[10:48:11.864]		Login AskFm
+[10:48:11.864]	Wait for login button
+[10:48:11.895]	Login menu click
+[10:48:11.967]	Type login: Pyato4kin
+[10:48:12.064]	Type password: VerySecretPassword
+[10:48:12.185]	Login submit click
+[10:48:12.229]	Wait for menu load
+[10:48:14.449]	Get number of new messages
+[10:48:14.511]		Open all question divs
+[10:48:14.512]	Open Inbox page
+[10:48:50.763]	[*****] Finished test: '3st test - Delete message test'.
+[10:48:50.763]	[*****] Test executed in 41 seconds.
+[10:48:50.763]	[FAILED] OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //input[contains(@class,'submit-button-more submit-button-active')] because of the following error:
+TypeError: Failed to execute 'createNSResolver' on 'Document': parameter 1 is not of type 'Node'.
+  (Session info: chrome=43.0.2357.81)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 6.1 SP1 x86_64)

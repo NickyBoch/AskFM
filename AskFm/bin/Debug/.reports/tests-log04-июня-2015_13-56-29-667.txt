@@ -1,0 +1,113 @@
+[13:56:35.709]	Navigate to site main page
+[13:56:39.206]		Login AskFm
+[13:56:39.207]	Wait for login button
+[13:56:39.277]	Login menu click
+[13:56:39.344]	Type login: Inokenti4
+[13:56:39.476]	Type password: VerySecretPassword
+[13:56:39.637]	Login submit click
+[13:56:39.690]	Wait for menu load
+[13:56:41.700]	Redirect to settings page
+[13:56:42.585]	Wait for language combobox load
+[13:56:42.642]	Select language: Русский or English
+[13:56:43.009]	Click save changes
+[13:56:48.477]	Wait for profile updated
+[13:56:48.544]	Get number of new messages
+[13:56:48.563]		Logout AskFm
+[13:56:48.564]	Wait for logout button
+[13:56:48.575]	Logout click
+[13:56:49.679]	[*****] Finished test: '1st test - Check number of incoming emails for 2nd user'.
+[13:56:49.679]	[*****] Test executed in 14 seconds.
+[13:56:49.686]	Navigate to site main page
+[13:56:50.177]		Login AskFm
+[13:56:50.177]	Wait for login button
+[13:56:50.195]	Login menu click
+[13:56:50.248]	Type login: Pyato4kin
+[13:56:50.377]	Type password: VerySecretPassword
+[13:56:50.539]	Login submit click
+[13:56:50.589]	Wait for menu load
+[13:56:51.592]	Wait for menu load
+[13:56:51.622]	Redirect to friends page
+[13:56:52.350]	Choose Friend
+[13:56:52.865]	Wait for messagebox
+[13:56:52.895]	Type message: Hello World! 0
+[13:56:52.907]	Submit message button click
+[13:56:52.962]	Wait for message send and resend button visible
+[13:56:53.219]	Wait for more message send button
+[13:56:53.245]	Click more message send button
+[13:56:53.284]	Wait for messagebox
+[13:56:53.300]	Type message: Hello World! 1
+[13:56:53.303]	Submit message button click
+[13:56:53.377]	Wait for message send and resend button visible
+[13:56:53.935]	Wait for more message send button
+[13:56:53.946]	Click more message send button
+[13:56:53.980]	Wait for messagebox
+[13:56:53.997]	Type message: Hello World! 2
+[13:56:54.001]	Submit message button click
+[13:56:54.069]	Wait for message send and resend button visible
+[13:56:54.641]	Wait for more message send button
+[13:56:54.647]	Click more message send button
+[13:56:54.695]	Wait for messagebox
+[13:56:54.750]	Type message: Hello World! 3
+[13:56:54.754]	Submit message button click
+[13:56:54.821]	Wait for message send and resend button visible
+[13:56:56.795]	Wait for more message send button
+[13:56:56.801]	Click more message send button
+[13:56:56.863]	Wait for messagebox
+[13:56:56.877]	Type message: Hello World! 4
+[13:56:56.882]	Submit message button click
+[13:56:56.953]	Wait for message send and resend button visible
+[13:56:57.483]	Wait for more message send button
+[13:56:57.488]	Click more message send button
+[13:56:57.533]	Wait for messagebox
+[13:56:57.551]	Type message: Hello World! 5
+[13:56:57.555]	Submit message button click
+[13:56:57.603]	Wait for message send and resend button visible
+[13:56:58.161]	Wait for more message send button
+[13:56:58.167]	Click more message send button
+[13:56:58.199]	Wait for messagebox
+[13:56:58.216]	Type message: Hello World! 6
+[13:56:58.229]	Submit message button click
+[13:56:58.283]	Wait for message send and resend button visible
+[13:56:58.843]	Wait for more message send button
+[13:56:58.852]	Click more message send button
+[13:56:58.886]		Logout AskFm
+[13:56:58.886]	Wait for logout button
+[13:56:58.900]	Logout click
+[13:56:59.852]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[13:56:59.852]	[*****] Test executed in 10 seconds.
+[13:56:59.856]	Navigate to site main page
+[13:57:00.446]		Login AskFm
+[13:57:00.446]	Wait for login button
+[13:57:00.468]	Login menu click
+[13:57:00.538]	Type login: Inokenti4
+[13:57:00.654]	Type password: VerySecretPassword
+[13:57:00.786]	Login submit click
+[13:57:00.846]	Wait for menu load
+[13:57:03.318]	Get number of new messages
+[13:57:03.372]	Redirect to inbox page
+[13:57:04.072]	Show more questions
+[13:57:04.449]	Show more questions
+[13:57:04.774]	Show more questions
+[13:57:05.484]	Show more questions
+[13:57:05.717]	Try to remove at: 5
+[13:57:05.738]	Move mouse over element
+[13:57:05.748]	Move mouse out element
+[13:57:05.752]	Click delete message button
+[13:57:05.759]	Redirect to inbox page
+[13:57:06.418]	Show more questions
+[13:57:06.767]	Show more questions
+[13:57:07.157]	Show more questions
+[13:57:07.459]	Show more questions
+[13:57:08.000]	Get number of all messages from menu
+[13:57:08.047]	Find daily question divs
+[13:57:08.064]	Number of daily question divs: 1
+[13:57:08.064]	Find sponsored question divs
+[13:57:08.082]	Number of sponsored question divs: 1
+[13:57:08.083]	Find question divs
+[13:57:08.098]	Number of question divs: 111
+[13:57:08.440]	[*****] Finished test: '1st test - Check number of incoming emails for 2nd user'.
+[13:57:08.440]	[*****] Test executed in 8 seconds.
+[13:57:08.441]	[FAILED]   Test false
+  Expected: True
+  But was:  False
+

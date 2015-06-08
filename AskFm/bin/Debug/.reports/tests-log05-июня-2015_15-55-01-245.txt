@@ -1,0 +1,9 @@
+[15:55:06.519]	[*****] Finished test: '1st test - Change Language test'.
+[15:55:06.527]	[*****] Test executed in 0 seconds.
+[15:55:06.528]	[FAILED] System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.
+[15:55:10.475]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[15:55:10.476]	[*****] Test executed in 0 seconds.
+[15:55:10.476]	[FAILED] System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.
+[15:55:18.277]	[*****] Finished test: '3st test - Delete message test'.
+[15:55:18.277]	[*****] Test executed in 0 seconds.
+[15:55:18.277]	[FAILED] System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.

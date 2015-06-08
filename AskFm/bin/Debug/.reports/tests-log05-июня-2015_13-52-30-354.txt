@@ -1,0 +1,6 @@
+[13:52:35.349]	[*****] Finished test: '1st test - Check number of incoming emails for 2nd user'.
+[13:52:35.366]	[*****] Test executed in 0 seconds.
+[13:52:39.146]	[*****] Finished test: '1st test - Check number of incoming emails for 2nd user'.
+[13:52:39.146]	[*****] Test executed in 0 seconds.
+[13:52:42.866]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[13:52:42.866]	[*****] Test executed in 0 seconds.

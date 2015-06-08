@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="AskFMSuite" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-06-08" time="10:56:35">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\bin\Debug" machine-name="WEB100-PC" user="Admin" user-domain="WEB100-PC" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="TestSuite" name="AskFMSuite" executed="True" result="Success" success="True" time="55.839" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="LanguageChangeTest" executed="True" result="Success" success="True" time="14.954" asserts="0">
+        <results>
+          <test-case name="AskFm.Tests.LanguageChangeTest.TestMethod1" description="1st test - Change Language test" executed="True" result="Success" success="True" time="10.033" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SendMessagesTest" executed="True" result="Success" success="True" time="19.398" asserts="0">
+        <results>
+          <test-case name="AskFm.Tests.SendMessagesTest.TestMethod2" description="2nd test - 1st user send new message to 2nd user" executed="True" result="Success" success="True" time="15.525" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="DeleteMessageTest" executed="True" result="Success" success="True" time="21.465" asserts="0">
+        <results>
+          <test-case name="AskFm.Tests.DeleteMessageTest.TestMethod3" description="3st test - Delete message test" executed="True" result="Success" success="True" time="17.657" asserts="2" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

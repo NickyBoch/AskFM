@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\bin\Debug\AskFm.dll</TopNode>
+  <SelectedNode>[0-1003]AskFm.Tests.DeleteMessageTest.TestMethod3</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]C:\Users\Admin\Documents\Visual Studio 2013\Projects\AskFmV2\AskFm\bin\Debug\AskFm.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]AskFm" Expanded="true" />
+    <Node UniqueName="[0-1008]AskFm.Tests" Expanded="true" />
+    <Node UniqueName="[0-1002]AskFm.Tests.DeleteMessageTest" Expanded="true" />
+    <Node UniqueName="[0-1000]AskFm.Tests.LanguageChangeTest" Expanded="true" />
+    <Node UniqueName="[0-1004]AskFm.Tests.SendMessagesTest" Expanded="true" />
+  </Nodes>
+</VisualState>

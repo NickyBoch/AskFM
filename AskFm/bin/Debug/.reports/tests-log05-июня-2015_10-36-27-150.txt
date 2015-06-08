@@ -1,0 +1,97 @@
+[10:36:27.409]	Navigate to site main page
+[10:36:30.060]		Login AskFm
+[10:36:30.064]	Wait for login button
+[10:36:30.108]	Login menu click
+[10:36:30.155]	Type login: Inokenti4
+[10:36:30.256]	Type password: VerySecretPassword
+[10:36:30.403]	Login submit click
+[10:36:30.459]	Wait for menu load
+[10:36:32.340]	Redirect to settings page
+[10:36:33.110]	Wait for language combobox load
+[10:36:33.129]	Select language: Русский or English
+[10:36:33.444]	Click save changes
+[10:37:05.221]	Wait for profile updated
+[10:37:05.274]	Get number of new messages
+[10:37:05.293]		Logout AskFm
+[10:37:05.294]	Wait for logout button
+[10:37:05.304]	Logout click
+[10:37:07.621]	Navigate to site main page
+[10:37:08.105]		Login AskFm
+[10:37:08.105]	Wait for login button
+[10:37:08.133]	Login menu click
+[10:37:08.183]	Type login: Pyato4kin
+[10:37:08.287]	Type password: VerySecretPassword
+[10:37:08.405]	Login submit click
+[10:37:08.460]	Wait for menu load
+[10:37:09.457]	Wait for menu load
+[10:37:09.473]	Redirect to friends page
+[10:37:10.566]	Choose Friend
+[10:37:11.167]	Wait for messagebox
+[10:37:11.198]	Type message: Hello World! 0
+[10:37:11.207]	Submit message button click
+[10:37:11.254]	Wait for message send and resend button visible
+[10:37:11.502]	Wait for more message send button
+[10:37:11.514]	Click more message send button
+[10:37:11.551]	Wait for messagebox
+[10:37:11.566]	Type message: Hello World! 1
+[10:37:11.572]	Submit message button click
+[10:37:11.781]	Wait for message send and resend button visible
+[10:37:12.587]	Wait for more message send button
+[10:37:12.596]	Click more message send button
+[10:37:12.638]	Wait for messagebox
+[10:37:12.656]	Type message: Hello World! 2
+[10:37:12.660]	Submit message button click
+[10:37:12.716]	Wait for message send and resend button visible
+[10:37:13.258]	Wait for more message send button
+[10:37:13.267]	Click more message send button
+[10:37:13.302]	Wait for messagebox
+[10:37:13.315]	Type message: Hello World! 3
+[10:37:13.321]	Submit message button click
+[10:37:13.363]	Wait for message send and resend button visible
+[10:37:13.898]	Wait for more message send button
+[10:37:13.908]	Click more message send button
+[10:37:13.941]	Wait for messagebox
+[10:37:13.958]	Type message: Hello World! 4
+[10:37:13.968]	Submit message button click
+[10:37:14.004]	Wait for message send and resend button visible
+[10:37:14.546]	Wait for more message send button
+[10:37:14.558]	Click more message send button
+[10:37:14.600]	Wait for messagebox
+[10:37:14.617]	Type message: Hello World! 5
+[10:37:14.621]	Submit message button click
+[10:37:14.668]	Wait for message send and resend button visible
+[10:37:15.205]	Wait for more message send button
+[10:37:15.213]	Click more message send button
+[10:37:15.250]	Wait for messagebox
+[10:37:15.266]	Type message: Hello World! 6
+[10:37:15.275]	Submit message button click
+[10:37:15.324]	Wait for message send and resend button visible
+[10:37:15.869]	Wait for more message send button
+[10:37:15.880]	Click more message send button
+[10:37:15.921]		Logout AskFm
+[10:37:15.922]	Wait for logout button
+[10:37:15.937]	Logout click
+[10:37:16.736]	Navigate to site main page
+[10:37:17.308]		Login AskFm
+[10:37:17.310]	Wait for login button
+[10:37:17.342]	Login menu click
+[10:37:17.385]	Type login: Inokenti4
+[10:37:17.487]	Type password: VerySecretPassword
+[10:37:17.609]	Login submit click
+[10:37:17.660]	Wait for menu load
+[10:37:18.394]	Get number of new messages
+[10:37:18.419]	Redirect to inbox page
+[10:37:19.223]	Show more questions
+[10:37:19.569]	Show more questions
+[10:37:19.944]	Show more questions
+[10:37:20.247]	Show more questions
+[10:37:20.768]	Show more questions
+[10:37:21.047]	Find daily question divs
+[10:37:21.059]	Number of daily question divs: 1
+[10:37:21.059]	Find sponsored question divs
+[10:37:21.073]	Number of sponsored question divs: 1
+[10:37:21.074]	Find question divs
+[10:37:21.090]	Number of question divs: 144
+[10:37:21.091]	Try to remove at: 5
+[10:37:21.106]	Move mouse over element
+[10:37:21.114]	Move mo

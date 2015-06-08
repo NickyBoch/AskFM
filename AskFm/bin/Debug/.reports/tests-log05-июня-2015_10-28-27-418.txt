@@ -1,0 +1,98 @@
+[10:28:27.638]	Navigate to site main page
+[10:28:30.576]		Login AskFm
+[10:28:30.576]	Wait for login button
+[10:28:30.622]	Login menu click
+[10:28:30.671]	Type login: Inokenti4
+[10:28:30.806]	Type password: VerySecretPassword
+[10:28:30.944]	Login submit click
+[10:28:31.005]	Wait for menu load
+[10:28:32.908]	Redirect to settings page
+[10:28:37.180]	Wait for language combobox load
+[10:28:37.208]	Select language: Русский or English
+[10:28:37.675]	Click save changes
+[10:28:38.593]	Wait for profile updated
+[10:28:38.684]	Get number of new messages
+[10:28:38.704]		Logout AskFm
+[10:28:38.705]	Wait for logout button
+[10:28:38.717]	Logout click
+[10:28:40.963]	Navigate to site main page
+[10:28:41.661]		Login AskFm
+[10:28:41.661]	Wait for login button
+[10:28:41.681]	Login menu click
+[10:28:41.727]	Type login: Pyato4kin
+[10:28:41.833]	Type password: VerySecretPassword
+[10:28:41.962]	Login submit click
+[10:28:42.018]	Wait for menu load
+[10:28:43.462]	Wait for menu load
+[10:28:43.482]	Redirect to friends page
+[10:28:44.145]	Choose Friend
+[10:28:44.678]	Wait for messagebox
+[10:28:44.728]	Type message: Hello World! 0
+[10:28:44.739]	Submit message button click
+[10:28:44.794]	Wait for message send and resend button visible
+[10:28:45.063]	Wait for more message send button
+[10:28:45.075]	Click more message send button
+[10:28:45.115]	Wait for messagebox
+[10:28:45.136]	Type message: Hello World! 1
+[10:28:45.320]	Submit message button click
+[10:28:45.434]	Wait for message send and resend button visible
+[10:28:46.531]	Wait for more message send button
+[10:28:46.541]	Click more message send button
+[10:28:46.585]	Wait for messagebox
+[10:28:46.610]	Type message: Hello World! 2
+[10:28:46.613]	Submit message button click
+[10:28:46.659]	Wait for message send and resend button visible
+[10:28:47.218]	Wait for more message send button
+[10:28:47.224]	Click more message send button
+[10:28:47.264]	Wait for messagebox
+[10:28:47.283]	Type message: Hello World! 3
+[10:28:47.294]	Submit message button click
+[10:28:47.341]	Wait for message send and resend button visible
+[10:29:43.913]	Wait for more message send button
+[10:29:43.921]	Click more message send button
+[10:29:43.976]	Wait for messagebox
+[10:29:43.996]	Type message: Hello World! 4
+[10:29:44.003]	Submit message button click
+[10:29:44.056]	Wait for message send and resend button visible
+[10:29:44.613]	Wait for more message send button
+[10:29:44.626]	Click more message send button
+[10:29:44.665]	Wait for messagebox
+[10:29:44.682]	Type message: Hello World! 5
+[10:29:44.692]	Submit message button click
+[10:29:44.729]	Wait for message send and resend button visible
+[10:29:45.275]	Wait for more message send button
+[10:29:45.286]	Click more message send button
+[10:29:45.318]	Wait for messagebox
+[10:29:45.334]	Type message: Hello World! 6
+[10:29:45.343]	Submit message button click
+[10:29:45.383]	Wait for message send and resend button visible
+[10:29:45.927]	Wait for more message send button
+[10:29:45.937]	Click more message send button
+[10:29:45.983]		Logout AskFm
+[10:29:45.984]	Wait for logout button
+[10:29:46.001]	Logout click
+[10:29:46.934]	Navigate to site main page
+[10:29:47.440]		Login AskFm
+[10:29:47.441]	Wait for login button
+[10:29:47.460]	Login menu click
+[10:29:47.513]	Type login: Inokenti4
+[10:29:47.619]	Type password: VerySecretPassword
+[10:29:47.744]	Login submit click
+[10:29:47.796]	Wait for menu load
+[10:29:48.703]	Get number of new messages
+[10:29:48.739]	Redirect to inbox page
+[10:29:49.344]	Show more questions
+[10:29:49.972]	Show more questions
+[10:29:50.268]	Show more questions
+[10:29:50.968]	Show more questions
+[10:29:51.261]	Show more questions
+[10:29:51.478]	Try to remove at: 5
+[10:29:51.492]	Move mouse over element
+[10:29:51.500]	Move mouse out element
+[10:29:51.505]	Click delete message button
+[10:29:51.512]	Redirect to inbox page
+[10:29:52.093]	Show more questions
+[10:29:52.412]	Show more questions
+[10:29:53.036]	Show more questions
+[10:29:53.345]	Show more questions
+[10:29:53.797]	Show more

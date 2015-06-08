@@ -1,0 +1,25 @@
+[10:20:39.438]	Navigate to site main page
+[10:20:41.963]		Login AskFm
+[10:20:41.969]	Wait for login button
+[10:20:42.023]	Login menu click
+[10:20:42.070]	Type login: Pyato4kin
+[10:20:42.189]	Type password: VerySecretPassword
+[10:20:42.330]	Login submit click
+[10:20:42.393]	Wait for menu load
+[10:20:44.331]	Wait for menu load
+[10:20:44.368]		Choose Friend
+[10:20:44.368]	Open Friends page
+[10:20:45.133]	Choose Friend
+[10:20:45.930]		Send 3 messages 
+[10:20:45.932]	Wait for messagebox
+[10:20:45.958]	Type message: Hello World! 0
+[10:20:45.971]	Submit message button click
+[10:20:46.020]	Wait for message send and resend button visible
+[10:20:49.237]	Wait for more message send button
+[10:20:49.252]	Click more message send button
+[10:20:49.631]	Wait for messagebox
+[10:20:49.647]	Type message: Hello World! 1
+[10:20:49.651]	Submit message button click
+[10:20:49.706]	Wait for message send and resend button visible
+[10:20:50.257]	Wait for more message send button
+[10:20:50.267]	Click more message 

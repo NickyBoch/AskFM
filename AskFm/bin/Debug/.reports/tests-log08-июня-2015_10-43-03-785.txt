@@ -1,0 +1,54 @@
+[10:43:12.331]	Navigate to site main page
+[10:43:13.902]		Login AskFm
+[10:43:13.903]	Wait for login button
+[10:43:14.399]	Login menu click
+[10:43:14.524]	Type login: Pyato4kin
+[10:43:14.791]	Type password: VerySecretPassword
+[10:43:15.373]	Login submit click
+[10:43:15.498]	Wait for menu load
+[10:43:16.497]	OpenPage to settings page
+[10:43:16.618]	Wait for menu load
+[10:43:17.452]		Change language toРусский or English
+[10:43:17.452]	Wait for language combobox load
+[10:43:17.568]	Select language: Русский or English
+[10:43:19.754]	Click save changes
+[10:43:19.939]	Wait for profile updated
+[10:43:20.971]	Get number of new messages
+[10:43:21.064]		Logout AskFm
+[10:43:21.064]	Wait for logout button
+[10:43:21.223]	Logout click
+[10:43:21.381]	[*****] Finished test: '1st test - Change Language test'.
+[10:43:21.382]	[*****] Test executed in 10 seconds.
+[10:43:30.107]	Navigate to site main page
+[10:43:31.545]		Login AskFm
+[10:43:31.545]	Wait for login button
+[10:43:32.037]	Login menu click
+[10:43:32.157]	Type login: Pyato4kin
+[10:43:32.444]	Type password: VerySecretPassword
+[10:43:33.072]	Login submit click
+[10:43:33.196]	Wait for menu load
+[10:43:34.275]	Wait for menu load
+[10:43:34.382]		Choose Friend
+[10:43:34.383]	Open Friends page
+[10:43:34.494]	Choose Friend
+[10:43:35.123]		Send 6 messages 
+[10:43:35.124]	Wait for messagebox
+[10:43:35.959]	Type message: Hello World! 0
+[10:43:36.116]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[10:43:36.116]	[*****] Test executed in 6 seconds.
+[10:43:36.116]	[FAILED] System.InvalidOperationException : textEvent.initTextEvent is not a function (UnexpectedJavaScriptError)
+[10:43:43.387]	Navigate to site main page
+[10:43:44.748]		Login AskFm
+[10:43:44.748]	Wait for login button
+[10:43:45.262]	Login menu click
+[10:43:45.390]	Type login: Pyato4kin
+[10:43:45.657]	Type password: VerySecretPassword
+[10:43:46.292]	Login submit click
+[10:43:46.414]	Wait for menu load
+[10:43:47.483]	Get number of new messages
+[10:43:47.557]		Open all question divs
+[10:43:47.558]	Open Inbox page
+[10:44:47.748]	[*****] Finished test: '3st test - Delete message test'.
+[10:44:47.748]	[*****] Test executed in 64 seconds.
+[10:44:47.748]	[FAILED] OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1917051b-7c99-479b-b9c0-55e087bb0eda/element timed out after 60 seconds.
+  ----> System.Net.WebException : Время ожидания операции истекло

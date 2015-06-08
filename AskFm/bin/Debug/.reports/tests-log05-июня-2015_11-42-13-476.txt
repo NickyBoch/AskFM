@@ -1,0 +1,122 @@
+[11:42:13.714]	Navigate to site main page
+[11:42:16.597]		Login AskFm
+[11:42:16.598]	Wait for login button
+[11:42:16.661]	Login menu click
+[11:42:16.710]	Type login: Inokenti4
+[11:42:16.830]	Type password: VerySecretPassword
+[11:42:16.977]	Login submit click
+[11:42:17.029]	Wait for menu load
+[11:42:19.029]	Redirect to settings page
+[11:42:19.842]	Wait for menu load
+[11:42:19.858]		Change language toРусский or English
+[11:42:19.858]	Wait for language combobox load
+[11:42:19.875]	Select language: Русский or English
+[11:42:20.043]	Click save changes
+[11:42:20.909]	Wait for profile updated
+[11:42:20.965]	Get number of new messages
+[11:42:21.010]		Logout AskFm
+[11:42:21.010]	Wait for logout button
+[11:42:21.027]	Logout click
+[11:42:23.366]	Navigate to site main page
+[11:42:23.915]		Login AskFm
+[11:42:23.916]	Wait for login button
+[11:42:23.933]	Login menu click
+[11:42:23.980]	Type login: Pyato4kin
+[11:42:24.108]	Type password: VerySecretPassword
+[11:42:24.235]	Login submit click
+[11:42:24.292]	Wait for menu load
+[11:42:31.403]	Wait for menu load
+[11:42:31.418]		Choose Friend
+[11:42:31.419]	Redirect to friends page
+[11:42:32.040]	Choose Friend
+[11:42:33.077]		Send 7 messages 
+[11:42:33.078]	Wait for messagebox
+[11:42:33.107]	Type message: Hello World! 0
+[11:42:33.116]	Submit message button click
+[11:42:33.164]	Wait for message send and resend button visible
+[11:42:34.345]	Wait for more message send button
+[11:42:34.358]	Click more message send button
+[11:42:35.385]	Wait for messagebox
+[11:42:35.412]	Type message: Hello World! 1
+[11:42:35.418]	Submit message button click
+[11:42:35.481]	Wait for message send and resend button visible
+[11:42:36.022]	Wait for more message send button
+[11:42:36.031]	Click more message send button
+[11:42:36.080]	Wait for messagebox
+[11:42:36.094]	Type message: Hello World! 2
+[11:42:36.098]	Submit message button click
+[11:42:36.145]	Wait for message send and resend button visible
+[11:42:36.693]	Wait for more message send button
+[11:42:36.701]	Click more message send button
+[11:42:36.736]	Wait for messagebox
+[11:42:36.755]	Type message: Hello World! 3
+[11:42:36.765]	Submit message button click
+[11:42:36.816]	Wait for message send and resend button visible
+[11:42:37.393]	Wait for more message send button
+[11:42:37.400]	Click more message send button
+[11:42:37.449]	Wait for messagebox
+[11:42:37.465]	Type message: Hello World! 4
+[11:42:37.470]	Submit message button click
+[11:42:37.534]	Wait for message send and resend button visible
+[11:42:38.078]	Wait for more message send button
+[11:42:38.089]	Click more message send button
+[11:42:38.121]	Wait for messagebox
+[11:42:38.147]	Type message: Hello World! 5
+[11:42:38.153]	Submit message button click
+[11:42:38.197]	Wait for message send and resend button visible
+[11:42:38.737]	Wait for more message send button
+[11:42:38.748]	Click more message send button
+[11:42:38.782]	Wait for messagebox
+[11:42:38.803]	Type message: Hello World! 6
+[11:42:38.813]	Submit message button click
+[11:42:38.865]	Wait for message send and resend button visible
+[11:42:39.420]	Wait for more message send button
+[11:42:39.432]	Click more message send button
+[11:42:39.470]		Logout AskFm
+[11:42:39.470]	Wait for logout button
+[11:42:39.489]	Logout click
+[11:42:40.468]	Navigate to site main page
+[11:42:40.990]		Login AskFm
+[11:42:40.990]	Wait for login button
+[11:42:41.011]	Login menu click
+[11:42:41.063]	Type login: Inokenti4
+[11:42:41.185]	Type password: VerySecretPassword
+[11:42:41.322]	Login submit click
+[11:42:41.378]	Wait for menu load
+[11:42:42.344]	Get number of new messages
+[11:42:42.388]		Open all question divs
+[11:42:42.388]	Redirect to inbox page
+[11:42:43.040]	Show more questions
+[11:42:43.347]	Show more questions
+[11:42:43.742]	Show more questions
+[11:42:44.363]	Show more questions
+[11:42:44.648]	Show more questions
+[11:42:44.938]	Show more questions
+[11:42:45.207]		GetAllMessageDivsCount
+[11:42:45.207]	Find daily question divs
+[11:42:45.224]	Number of daily question divs: 1
+[11:42:45.225]	Find sponsored question divs
+[11:42:45.238]	Number of sponsored question divs: 1
+[11:42:45.239]	Find question divs
+[11:42:45.257]	Number of question divs: 168
+[11:42:45.257]		Delete question at: 5
+[11:42:45.271]	Move mouse over element
+[11:42:45.280]	Move mouse out element
+[11:42:45.287]	Remove question at: 5
+[11:42:45.303]	Click delete message button
+[11:42:45.311]		Open all question divs
+[11:42:45.311]	Redirect to inbox page
+[11:42:45.912]	Show more questions
+[11:42:46.217]	Show more questions
+[11:42:46.552]	Show more questions
+[11:42:46.842]	Show more questions
+[11:42:47.356]	Show more questions
+[11:42:47.650]	Show more questions
+[11:42:47.921]	Get number of all messages from menu
+[11:42:47.942]		GetAllMessageDivsCount
+[11:42:47.943]	Find daily question divs
+[11:42:47.954]	Number of daily question divs: 1
+[11:42:47.954]	Find sponsored question divs
+[11:42:47.965]	Number of sponsored question divs: 1
+[11:42:47.966]	Find question divs
+[11:42:47.980]	Number of question divs: 1

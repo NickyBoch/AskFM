@@ -1,0 +1,48 @@
+[10:54:40.431]	Navigate to site main page
+[10:54:43.295]		Login AskFm
+[10:54:43.296]	Wait for login button
+[10:54:43.360]	Login menu click
+[10:54:43.406]	Type login: Pyato4kin
+[10:54:43.520]	Type password: VerySecretPassword
+[10:54:43.643]	Login submit click
+[10:54:43.693]	Wait for menu load
+[10:54:45.616]	Wait for menu load
+[10:54:45.658]		Choose Friend
+[10:54:45.659]	Open Friends page
+[10:54:49.805]	Choose Friend
+[10:54:50.578]		Send 5 messages 
+[10:54:50.578]	Wait for messagebox
+[10:54:50.617]	Type message: Hello World! 0
+[10:54:50.629]	Submit message button click
+[10:54:50.710]	Wait for message send and resend button visible
+[10:54:52.752]	Wait for more message send button
+[10:54:52.770]	Click more message send button
+[10:54:52.814]	Wait for messagebox
+[10:54:52.838]	Type message: Hello World! 1
+[10:54:52.842]	Submit message button click
+[10:54:52.905]	Wait for message send and resend button visible
+[10:54:53.463]	Wait for more message send button
+[10:54:53.472]	Click more message send button
+[10:54:53.512]	Wait for messagebox
+[10:54:53.528]	Type message: Hello World! 2
+[10:54:53.532]	Submit message button click
+[10:54:53.570]	Wait for message send and resend button visible
+[10:54:54.100]	Wait for more message send button
+[10:54:54.108]	Click more message send button
+[10:54:54.142]	Wait for messagebox
+[10:54:54.157]	Type message: Hello World! 3
+[10:54:54.160]	Submit message button click
+[10:54:54.203]	Wait for message send and resend button visible
+[10:54:54.756]	Wait for more message send button
+[10:54:54.767]	Click more message send button
+[10:54:54.807]	Wait for messagebox
+[10:54:54.823]	Type message: Hello World! 4
+[10:54:54.827]	Submit message button click
+[10:54:54.870]	Wait for message send and resend button visible
+[10:54:55.440]	Wait for more message send button
+[10:54:55.451]	Click more message send button
+[10:54:55.496]		Logout AskFm
+[10:54:55.496]	Wait for logout button
+[10:54:55.512]	Logout click
+[10:54:56.357]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[10:54:56.358]	[*****] Test executed in 17 seconds.

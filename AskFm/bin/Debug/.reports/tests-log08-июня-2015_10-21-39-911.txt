@@ -1,0 +1,28 @@
+[10:21:41.236]	Navigate to site main page
+[10:21:43.768]		Login AskFm
+[10:21:43.769]	Wait for login button
+[10:21:43.812]	Login menu click
+[10:21:43.864]	Type login: Inokenti4
+[10:21:44.002]	Type password: VerySecretPassword
+[10:21:44.156]	Login submit click
+[10:21:44.205]	Wait for menu load
+[10:21:46.144]	Get number of new messages
+[10:21:46.198]		Open all question divs
+[10:21:46.199]	Open Inbox page
+[10:21:46.983]	Show more questions
+[10:21:50.972]	Show more questions
+[10:21:51.285]	Show more questions
+[10:21:51.572]	Show more questions
+[10:21:51.845]	Show more questions
+[10:21:52.120]	Show more questions
+[10:21:52.411]	Show more questions
+[10:21:52.694]	Show more questions
+[10:21:52.976]		GetAllMessageCount
+[10:21:52.977]	Find daily question
+[10:21:52.996]	Number of daily question: 1
+[10:21:52.997]	Find sponsored question
+[10:21:53.009]	Number of sponsored question: 1
+[10:21:53.010]	Find questions
+[10:21:53.028]	Number of question: 225
+[10:21:53.028]		Delete question at: 5
+[10:21

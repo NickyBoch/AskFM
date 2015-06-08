@@ -1,0 +1,136 @@
+[10:55:45.207]	Navigate to site main page
+[10:55:47.811]		Login AskFm
+[10:55:47.811]	Wait for login button
+[10:55:47.869]	Login menu click
+[10:55:47.913]	Type login: Inokenti4
+[10:55:48.024]	Type password: VerySecretPassword
+[10:55:48.156]	Login submit click
+[10:55:48.211]	Wait for menu load
+[10:55:50.213]	OpenPage to settings page
+[10:55:51.295]	Wait for menu load
+[10:55:51.321]		Change language toРусский or English
+[10:55:51.321]	Wait for language combobox load
+[10:55:51.335]	Select language: Русский or English
+[10:55:51.500]	Click save changes
+[10:55:52.411]	Wait for profile updated
+[10:55:52.506]	Get number of new messages
+[10:55:52.527]		Logout AskFm
+[10:55:52.527]	Wait for logout button
+[10:55:52.538]	Logout click
+[10:55:54.053]	[*****] Finished test: '1st test - Change Language test'.
+[10:55:54.053]	[*****] Test executed in 10 seconds.
+[10:55:57.909]	Navigate to site main page
+[10:56:00.345]		Login AskFm
+[10:56:00.350]	Wait for login button
+[10:56:00.380]	Login menu click
+[10:56:00.426]	Type login: Pyato4kin
+[10:56:00.545]	Type password: VerySecretPassword
+[10:56:00.665]	Login submit click
+[10:56:00.714]	Wait for menu load
+[10:56:02.676]	Wait for menu load
+[10:56:02.725]		Choose Friend
+[10:56:02.726]	Open Friends page
+[10:56:03.469]	Choose Friend
+[10:56:08.139]		Send 7 messages 
+[10:56:08.140]	Wait for messagebox
+[10:56:08.195]	Type message: Hello World! 0
+[10:56:08.215]	Submit message button click
+[10:56:08.277]	Wait for message send and resend button visible
+[10:56:08.548]	Wait for more message send button
+[10:56:08.563]	Click more message send button
+[10:56:08.603]	Wait for messagebox
+[10:56:08.618]	Type message: Hello World! 1
+[10:56:08.625]	Submit message button click
+[10:56:08.675]	Wait for message send and resend button visible
+[10:56:09.241]	Wait for more message send button
+[10:56:09.253]	Click more message send button
+[10:56:09.296]	Wait for messagebox
+[10:56:09.311]	Type message: Hello World! 2
+[10:56:09.315]	Submit message button click
+[10:56:09.358]	Wait for message send and resend button visible
+[10:56:09.926]	Wait for more message send button
+[10:56:09.937]	Click more message send button
+[10:56:09.977]	Wait for messagebox
+[10:56:09.987]	Type message: Hello World! 3
+[10:56:09.996]	Submit message button click
+[10:56:10.035]	Wait for message send and resend button visible
+[10:56:10.595]	Wait for more message send button
+[10:56:10.610]	Click more message send button
+[10:56:10.660]	Wait for messagebox
+[10:56:10.686]	Type message: Hello World! 4
+[10:56:10.694]	Submit message button click
+[10:56:10.730]	Wait for message send and resend button visible
+[10:56:11.267]	Wait for more message send button
+[10:56:11.275]	Click more message send button
+[10:56:11.307]	Wait for messagebox
+[10:56:11.322]	Type message: Hello World! 5
+[10:56:11.329]	Submit message button click
+[10:56:11.365]	Wait for message send and resend button visible
+[10:56:11.923]	Wait for more message send button
+[10:56:11.936]	Click more message send button
+[10:56:11.978]	Wait for messagebox
+[10:56:11.993]	Type message: Hello World! 6
+[10:56:11.997]	Submit message button click
+[10:56:12.034]	Wait for message send and resend button visible
+[10:56:12.598]	Wait for more message send button
+[10:56:12.609]	Click more message send button
+[10:56:12.649]		Logout AskFm
+[10:56:12.649]	Wait for logout button
+[10:56:12.664]	Logout click
+[10:56:13.431]	[*****] Finished test: '2nd test - 1st user send new message to 2nd user'.
+[10:56:13.432]	[*****] Test executed in 16 seconds.
+[10:56:17.237]	Navigate to site main page
+[10:56:19.553]		Login AskFm
+[10:56:19.554]	Wait for login button
+[10:56:19.572]	Login menu click
+[10:56:19.624]	Type login: Inokenti4
+[10:56:19.720]	Type password: VerySecretPassword
+[10:56:19.824]	Login submit click
+[10:56:19.880]	Wait for menu load
+[10:56:21.800]	Get number of new messages
+[10:56:21.851]		Open all question divs
+[10:56:21.852]	Open Inbox page
+[10:56:26.522]	Show more questions
+[10:56:26.854]	Show more questions
+[10:56:27.152]	Show more questions
+[10:56:27.445]	Show more questions
+[10:56:27.730]	Show more questions
+[10:56:28.022]	Show more questions
+[10:56:28.306]	Show more questions
+[10:56:28.599]	Show more questions
+[10:56:29.173]	Show more questions
+[10:56:29.466]		GetAllMessageCount
+[10:56:29.466]	Find daily question
+[10:56:29.483]	Number of daily question: 1
+[10:56:29.483]	Find sponsored question
+[10:56:29.495]	Number of sponsored question: 1
+[10:56:29.496]	Find questions
+[10:56:29.516]	Number of question: 243
+[10:56:29.516]		Delete question at: 5
+[10:56:29.530]	Move mouse over element
+[10:56:29.537]	Remove question at: 5
+[10:56:29.553]	Click delete message button
+[10:56:29.563]		Open all question divs
+[10:56:29.563]	Open Inbox page
+[10:56:30.486]	Show more questions
+[10:56:31.782]	Show more questions
+[10:56:32.094]	Show more questions
+[10:56:32.385]	Show more questions
+[10:56:32.671]	Show more questions
+[10:56:32.954]	Show more questions
+[10:56:33.250]	Show more questions
+[10:56:33.559]	Show more questions
+[10:56:33.856]	Show more questions
+[10:56:34.105]	Get number of all messages from menu
+[10:56:34.130]		GetAllMessageCount
+[10:56:34.130]	Find daily question
+[10:56:34.142]	Number of daily question: 1
+[10:56:34.142]	Find sponsored question
+[10:56:34.154]	Number of sponsored question: 1
+[10:56:34.154]	Find questions
+[10:56:34.172]	Number of question: 242
+[10:56:34.181]		Logout AskFm
+[10:56:34.181]	Wait for logout button
+[10:56:34.192]	Logout click
+[10:56:34.891]	[*****] Finished test: '3st test - Delete message test'.
+[10:56:34.891]	[*****] Test executed in 18 seconds.

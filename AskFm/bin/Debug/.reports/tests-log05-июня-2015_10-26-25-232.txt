@@ -1,0 +1,98 @@
+[10:26:25.495]	Navigate to site main page
+[10:26:29.577]		Login AskFm
+[10:26:29.579]	Wait for login button
+[10:26:29.612]	Login menu click
+[10:26:29.670]	Type login: Inokenti4
+[10:26:29.803]	Type password: VerySecretPassword
+[10:26:29.988]	Login submit click
+[10:26:30.048]	Wait for menu load
+[10:26:33.078]	Redirect to settings page
+[10:26:39.180]	Wait for language combobox load
+[10:26:39.202]	Select language: Русский or English
+[10:26:40.002]	Click save changes
+[10:26:41.263]	Wait for profile updated
+[10:26:41.320]	Get number of new messages
+[10:26:41.383]		Logout AskFm
+[10:26:41.384]	Wait for logout button
+[10:26:41.404]	Logout click
+[10:26:43.889]	Navigate to site main page
+[10:26:44.395]		Login AskFm
+[10:26:44.396]	Wait for login button
+[10:26:44.423]	Login menu click
+[10:26:44.476]	Type login: Pyato4kin
+[10:26:44.646]	Type password: VerySecretPassword
+[10:26:44.904]	Login submit click
+[10:26:44.968]	Wait for menu load
+[10:26:45.935]	Wait for menu load
+[10:26:45.954]	Redirect to friends page
+[10:26:46.671]	Choose Friend
+[10:26:47.265]	Wait for messagebox
+[10:26:47.315]	Type message: Hello World! 0
+[10:26:47.353]	Submit message button click
+[10:26:47.468]	Wait for message send and resend button visible
+[10:26:47.720]	Wait for more message send button
+[10:26:47.916]	Click more message send button
+[10:26:47.975]	Wait for messagebox
+[10:26:48.003]	Type message: Hello World! 1
+[10:26:48.014]	Submit message button click
+[10:26:48.120]	Wait for message send and resend button visible
+[10:26:49.490]	Wait for more message send button
+[10:26:49.506]	Click more message send button
+[10:26:49.538]	Wait for messagebox
+[10:26:49.553]	Type message: Hello World! 2
+[10:26:49.560]	Submit message button click
+[10:26:49.623]	Wait for message send and resend button visible
+[10:26:50.169]	Wait for more message send button
+[10:26:50.180]	Click more message send button
+[10:26:50.223]	Wait for messagebox
+[10:26:50.243]	Type message: Hello World! 3
+[10:26:50.254]	Submit message button click
+[10:26:50.310]	Wait for message send and resend button visible
+[10:26:50.871]	Wait for more message send button
+[10:26:50.880]	Click more message send button
+[10:26:50.931]	Wait for messagebox
+[10:26:50.955]	Type message: Hello World! 4
+[10:26:50.971]	Submit message button click
+[10:26:51.040]	Wait for message send and resend button visible
+[10:26:51.580]	Wait for more message send button
+[10:26:51.589]	Click more message send button
+[10:26:51.621]	Wait for messagebox
+[10:26:51.636]	Type message: Hello World! 5
+[10:26:51.649]	Submit message button click
+[10:26:51.693]	Wait for message send and resend button visible
+[10:26:52.234]	Wait for more message send button
+[10:26:52.245]	Click more message send button
+[10:26:52.279]	Wait for messagebox
+[10:26:52.305]	Type message: Hello World! 6
+[10:26:52.316]	Submit message button click
+[10:26:52.370]	Wait for message send and resend button visible
+[10:26:52.918]	Wait for more message send button
+[10:26:52.926]	Click more message send button
+[10:26:52.973]		Logout AskFm
+[10:26:52.973]	Wait for logout button
+[10:26:53.008]	Logout click
+[10:26:53.890]	Navigate to site main page
+[10:26:54.371]		Login AskFm
+[10:26:54.372]	Wait for login button
+[10:26:54.399]	Login menu click
+[10:26:54.440]	Type login: Inokenti4
+[10:26:54.561]	Type password: VerySecretPassword
+[10:26:54.802]	Login submit click
+[10:26:54.862]	Wait for menu load
+[10:26:55.719]	Get number of new messages
+[10:26:55.760]	Redirect to inbox page
+[10:26:56.438]	Show more questions
+[10:26:56.741]	Show more questions
+[10:26:57.104]	Show more questions
+[10:26:57.401]	Show more questions
+[10:26:58.166]	Try to remove at: 5
+[10:26:58.189]	Move mouse over element
+[10:26:58.196]	Move mouse out element
+[10:26:58.206]	Click delete message button
+[10:26:58.214]	Redirect to inbox page
+[10:26:58.928]	Show more questions
+[10:26:59.236]	Show more questions
+[10:26:59.577]	Show more questions
+[10:26:59.909]	Show more questions
+[10:27:00.636]	Get number of all messages from menu
+[10:27:

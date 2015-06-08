@@ -1,0 +1,97 @@
+[11:10:06.653]	Navigate to site main page
+[11:10:09.207]		Login AskFm
+[11:10:09.210]	Wait for login button
+[11:10:09.259]	Login menu click
+[11:10:09.311]	Type login: Inokenti4
+[11:10:09.440]	Type password: VerySecretPassword
+[11:10:09.588]	Login submit click
+[11:10:09.643]	Wait for menu load
+[11:10:11.559]	Redirect to settings page
+[11:10:12.355]	Wait for language combobox load
+[11:10:12.376]	Select language: Русский or English
+[11:10:15.707]	Click save changes
+[11:10:16.680]	Wait for profile updated
+[11:10:16.738]	Get number of new messages
+[11:10:16.789]		Logout AskFm
+[11:10:16.790]	Wait for logout button
+[11:10:16.802]	Logout click
+[11:10:19.050]	Navigate to site main page
+[11:10:19.573]		Login AskFm
+[11:10:19.576]	Wait for login button
+[11:10:19.596]	Login menu click
+[11:10:19.638]	Type login: Pyato4kin
+[11:10:19.747]	Type password: VerySecretPassword
+[11:10:19.894]	Login submit click
+[11:10:19.956]	Wait for menu load
+[11:10:21.398]	Wait for menu load
+[11:10:21.413]	Redirect to friends page
+[11:10:22.607]	Choose Friend
+[11:10:23.258]	Wait for messagebox
+[11:10:23.290]	Type message: Hello World! 0
+[11:10:23.301]	Submit message button click
+[11:10:23.377]	Wait for message send and resend button visible
+[11:10:23.814]	Wait for more message send button
+[11:10:23.830]	Click more message send button
+[11:10:23.879]	Wait for messagebox
+[11:10:23.898]	Type message: Hello World! 1
+[11:10:23.908]	Submit message button click
+[11:10:23.977]	Wait for message send and resend button visible
+[11:10:25.076]	Wait for more message send button
+[11:10:25.084]	Click more message send button
+[11:10:25.132]	Wait for messagebox
+[11:10:25.149]	Type message: Hello World! 2
+[11:10:25.161]	Submit message button click
+[11:10:25.214]	Wait for message send and resend button visible
+[11:10:25.773]	Wait for more message send button
+[11:10:25.783]	Click more message send button
+[11:10:25.825]	Wait for messagebox
+[11:10:25.840]	Type message: Hello World! 3
+[11:10:25.845]	Submit message button click
+[11:10:25.891]	Wait for message send and resend button visible
+[11:10:26.423]	Wait for more message send button
+[11:10:26.431]	Click more message send button
+[11:10:26.468]	Wait for messagebox
+[11:10:26.493]	Type message: Hello World! 4
+[11:10:26.499]	Submit message button click
+[11:10:26.542]	Wait for message send and resend button visible
+[11:10:27.083]	Wait for more message send button
+[11:10:27.093]	Click more message send button
+[11:10:27.134]	Wait for messagebox
+[11:10:27.174]	Type message: Hello World! 5
+[11:10:27.178]	Submit message button click
+[11:10:27.224]	Wait for message send and resend button visible
+[11:10:27.773]	Wait for more message send button
+[11:10:27.782]	Click more message send button
+[11:10:27.825]	Wait for messagebox
+[11:10:27.844]	Type message: Hello World! 6
+[11:10:27.849]	Submit message button click
+[11:10:27.893]	Wait for message send and resend button visible
+[11:10:28.426]	Wait for more message send button
+[11:10:28.432]	Click more message send button
+[11:10:28.467]		Logout AskFm
+[11:10:28.468]	Wait for logout button
+[11:10:28.494]	Logout click
+[11:10:29.309]	Navigate to site main page
+[11:10:29.869]		Login AskFm
+[11:10:29.872]	Wait for login button
+[11:10:29.889]	Login menu click
+[11:10:29.941]	Type login: Inokenti4
+[11:10:30.052]	Type password: VerySecretPassword
+[11:10:30.197]	Login submit click
+[11:10:30.246]	Wait for menu load
+[11:10:31.159]	Get number of new messages
+[11:10:31.182]	Redirect to inbox page
+[11:10:31.809]	Show more questions
+[11:10:32.135]	Show more questions
+[11:10:32.495]	Show more questions
+[11:10:33.098]	Show more questions
+[11:10:34.300]	Show more questions
+[11:10:34.598]	Show more questions
+[11:10:38.746]	Find daily question divs
+[11:10:38.764]	Number of daily question divs: 1
+[11:10:40.271]	Find sponsored question divs
+[11:10:40.288]	Number of sponsored question divs: 1
+[11:10:42.774]	Find question divs
+[11:10:42.812]	Number of question divs: 162
+[11:11:00.989]	Try to remove at: 5
+[11:11:01.021]	Move mouse 
